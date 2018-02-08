@@ -4,8 +4,6 @@
 
 Here you can see how to create single page application based on Vue and Laravel with most common features.
 
-![article](md-assets/gif/article2.gif)
-
 ### Frontend
 
 #### Cases:
@@ -40,8 +38,6 @@ Here you can see how to create single page application based on Vue and Laravel 
 - Laravel 5.4
 - Package "tymon/jwt-auth" - laravel JWT implementation
 - Packages "laravel-debugbar", "laravel-ide-helper" - just for development
-
-![login](md-assets/gif/login2.gif)
 
 ### What can you see
 
@@ -95,8 +91,8 @@ There is the [GraphQL](https://github.com/dima-loburec/laravel-vue/tree/GraphQL)
 Just copy and past:
 
 ```bash
-git clone git@github.com:dima-loburec/laravel-vue.git
-cd laravel-vue/
+git clone git@github.com:/granddevv/simple-laravel-vue-form.git
+cd simple-laravel-vue/
 
 # frontend:
 docker run -v "$PWD":/usr/src/app -w /usr/src/app node:8 npm rebuild node-sass --force && yarn install && yarn run dev
@@ -115,7 +111,7 @@ docker exec docker_app_1 bash -c "sh docker/app/install.sh"
 You need any LAMP/LEMP with PHP5.6+ and MySQL 5.7+
 
 ```bash
-git clone git@github.com:dima-loburec/laravel-vue.git
+git clone git@github.com:granddevv/simple-laravel-vue-form.git
 # copy .env.example to .env and add your database credentials
 # add vhost to your web-server for public folder
 # run your composer, artisan, npm/yarn:
